@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: kafka-java-demo
+  kafka:
+    producer:
+      bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      bootstrap-servers: 127.0.0.1:9092
+      group-id: demo-group
+    streams:
+      application-id:
+      bootstrap-servers:
